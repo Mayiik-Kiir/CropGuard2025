@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/camera", "destination": "/camera.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
