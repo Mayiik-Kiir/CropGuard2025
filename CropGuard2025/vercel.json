@@ -1,6 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/camera", "destination": "/camera.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+  "redirects": [
+    { "source": "/camera", "destination": "/camera.html", "permanent": true }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
+
